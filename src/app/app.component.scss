@@ -1,0 +1,70 @@
+.toolbar {
+  height: 110px;
+  background-color: rgb(130, 10, 209);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 28px;
+  padding-top: 8px;
+  gap: 20px;
+  
+  .rigthIcons {
+    display: flex;
+    flex-direction: row;
+
+    > * {
+      margin-left: 12px;
+    }
+  }
+
+  h2 {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px ;
+    color: #fff;
+  }
+
+  .header {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .personCircle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+h1, h2, h3, span, p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: rgb(35, 35, 35);
+}
+
+.content section{
+    padding-left: 28px;
+    padding-right: 28px;
+
+}
+
+.content-title {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8px;
+
+        h1{
+            margin: 0;
+            font-size: 18px;
+        }
+}
